@@ -1,0 +1,33 @@
+.download {
+  padding: 6rem 2rem;
+  text-align: center;
+  background: var(--light-color);
+}
+
+.download h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.app-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.app-buttons img {
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.app-buttons img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .app-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
